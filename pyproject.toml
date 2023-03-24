@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "datadog-local-setup"
+version = "0.1.0"
+description = ""
+authors = ["Radoslaw Bialowas <radoslaw.bialowas@gmail.com>"]
+readme = "README.md"
+packages = [{include = "datadog_local_setup"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.95.0"
+uvicorn = "^0.21.1"
+datadog = "^0.45.0"
+ddtrace = "^1.9.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
